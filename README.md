@@ -9,24 +9,10 @@ that can be shared across multiple repositories using Git subtree.
 
 Run the following commands in your repository root.
 
-## 1. Initialize
+## Install & Update
 
 ```bash
-git subtree add \
-  --prefix=.harness \
-  https://github.com/YongSiHun/gemini-clean-code.git \
-  main \
-  --squash
-```
-
-## 2. Update
-
-```bash
-git subtree pull \
-  --prefix=.harness \
-  https://github.com/YongSiHun/gemini-clean-code.git \
-  main \
-  --squash
+curl -fsSL https://raw.githubusercontent.com/YongSiHun/gemini-clean-code/main/install.sh | bash
 ```
 
 # Directory Structure
