@@ -18,6 +18,5 @@ curl -fsSL https://raw.githubusercontent.com/YongSiHun/gemini-clean-code/main/in
 # Directory Structure
 
 ```
-.harness/
-└── rules/
+.gemini/
 ```
