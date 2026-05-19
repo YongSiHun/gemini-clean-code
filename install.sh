@@ -7,7 +7,7 @@ BRANCH="main"
 
 BASE_URL="https://raw.githubusercontent.com/$REPO/$BRANCH"
 
-INSTALL_DIR=".harness"
+INSTALL_DIR=".gemini"
 
 FILES=(
   "GEMINI.md"
