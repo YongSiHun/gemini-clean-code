@@ -10,8 +10,8 @@ BASE_URL="https://raw.githubusercontent.com/$REPO/$BRANCH"
 INSTALL_DIR=".gemini"
 
 FILES=(
-  "GEMINI.md"
-  "GEMINI_KR.md"
+  "CLEAN_CODE.md"
+  "CLEAN_CODE_KR.md"
 )
 
 mkdir -p "$INSTALL_DIR"
